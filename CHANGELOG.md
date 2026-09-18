@@ -11,6 +11,9 @@ and `connector.onConnectionChange(callback)` report `connecting`, `connected`,
 `Channel.stopListening(event, callback)` removes only the given callback instead of every
 listener of that event.
 
+Installing straight from the repository now works: a `prepare` script builds `dist` on
+install, and an `exports` map points ESM consumers at the ES module build.
+
 ## [0.8.1](https://github.com/qruto/laravel-wave-client/compare/0.8.0...0.8.1) - 2024-06-30
 
 Make `authEndpoint` optional
